@@ -42,7 +42,7 @@ node {
                             {
                     
                         // Run the maven test build
-                        sh "mvn -s /opt/settings.xml -f ./Talenddependency/poms/pom.xml clean -Pcloud-publisher deploy"
+                        sh "mvn -s /opt/settings.xml -f ./poms/pom.xml clean -Pcloud-publisher deploy"
                     
                         }  
         }
