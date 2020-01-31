@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>GBI_POC_WORK_JOB_TRY_TALEND_FUNCTIONS__0.1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.talend.core.sourcesNature</nature>
+	</natures>
+</projectDescription>
