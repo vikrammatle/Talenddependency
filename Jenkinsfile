@@ -42,7 +42,7 @@ node {
                             {
                     
                         // Run the maven test build
-                        sh "mvn -s /opt/settings.xml -f $PROJECT_GIT_NAME/poms/pom.xml clean -Pcloud-publisher deploy"
+                        sh "mvn -s /opt/settings.xml -f ./poms/pom.xml clean -Pcloud-publisher deploy"
                     
                         }  
         }
@@ -66,7 +66,7 @@ node {
                script{
                     sh "pwd"
                     sh "ls -l"
-                    dir("./GBI_POC_WORKING") {
+                    dir(".") {
                     docker.build(imageName, "-f DockerFile .")
                     }
             }
