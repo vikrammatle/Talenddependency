@@ -2,7 +2,7 @@ env.PROJECT_GIT_NAME = 'GBI_POC_WORKING'
 env.PROJECT_NAME = env.PROJECT_GIT_NAME.toLowerCase()
 env.JOB = 'test'
 env.VERSION = '0.1'
-env.GIT_URL = 'https://NDH70539:NzQzODE2MDY5MTU5OpGqX%2BhBjhze9uTYLVMy%2FhP5vakf@bitbucket.devops-nissan.biz/scm/test/tlalendcicd.git'
+env.GIT_URL = 'https://github.com/vikrammatle/Talenddependency.git'
 env.TYPE = "" // if big data = _mr n
 env.DOCKERHUB_USER = "talendinc"
 env.imageName= 'talendimagenew'
